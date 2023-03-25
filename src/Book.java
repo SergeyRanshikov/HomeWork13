@@ -3,7 +3,7 @@ public class Book {
     public final String getBookName() {
         return this.bookName;
     }
-    public Author author;
+    public final Author author;
     private int publishingYear;
     public int getPublishingYear(){
         return this.publishingYear;
